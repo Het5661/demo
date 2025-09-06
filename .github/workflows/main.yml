@@ -1,4 +1,4 @@
-name: demo
+name: het
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
 
 jobs:
   demo:
-    run-on: ubutu-latest
+    runs-on: ubuntu-latest
 
   steps:
-    -name: hello 
+    - name: hello 
       run: echo "Hello"
