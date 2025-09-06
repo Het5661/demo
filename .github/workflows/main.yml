@@ -1,0 +1,13 @@
+name: demo
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    run-on: ubutu-latest
+
+  steps:
+    -name: hello 
+      run: echo "Hello"
